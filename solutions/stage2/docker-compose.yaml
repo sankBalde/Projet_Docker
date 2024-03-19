@@ -1,0 +1,13 @@
+version: '3'
+services:
+  gradio_app:
+    build: .
+    ports:
+      - "7860:7860"
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 700M
+    volumes:
+      - ./donnees:/Workspace/flagged
