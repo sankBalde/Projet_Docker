@@ -1,0 +1,8 @@
+gradio
+transformers
+requests
+Pillow
+torch
+torchvision
+tensorflow
+celery

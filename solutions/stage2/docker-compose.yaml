@@ -7,7 +7,7 @@ services:
     deploy:
       resources:
         limits:
-          cpus: '0.5'
+          #cpus: '0.5'
           memory: 700M
     volumes:
       - ./donnees:/Workspace/flagged

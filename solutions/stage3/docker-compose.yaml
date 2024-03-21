@@ -7,7 +7,7 @@ services:
     deploy:
       resources:
         limits:
-          #cpus: '0.5'
           memory: 8000M
     volumes:
       - ./donnees:/Workspace/flagged
+      - ./huggingface_cache:/Workspace/.cache/huggingface
