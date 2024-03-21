@@ -4,12 +4,13 @@ services:
     build:
       context: ./sources-frontend
     ports:
-      - "8000:8000"
+      - "80:80"
     environment:
       - CELERY_BROKER_URL=amqp://guest:guest@rabbitmq:5672
       - CELERY_RESULT_BACKEND=rpc://
     depends_on:
       - rabbitmq
+
   ocr:
     build:
       context: ./sources-backend
