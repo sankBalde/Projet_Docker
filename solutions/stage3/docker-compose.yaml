@@ -10,4 +10,4 @@ services:
           memory: 8000M
     volumes:
       - ./donnees:/Workspace/flagged
-      - ./huggingface_cache:/Workspace/.cache/huggingface
+      - ./huggingface_cache:/home/appuser/.cache/huggingface
