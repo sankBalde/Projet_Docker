@@ -81,6 +81,10 @@ L'objectif est de construire un système OCR (Reconnaissance Optique de Caractè
 #### Instructions d'exécution :
 - Similaire à l'étape 1 avec l'ajout de services pour RabbitMQ et Celery.
 
+#### Temps d'éxécution :
+- Le front-end est déjà disponible lors de l'ouverture du localhost sur le port 8000.
+- La durée du process lors de la premiere éxécution est de 2 min puis 10 secondes lors des autres éxécutions.
+
 ---
 
 ## Auteurs :
