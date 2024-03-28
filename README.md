@@ -69,7 +69,7 @@ L'objectif est de construire un système OCR (Reconnaissance Optique de Caractè
 - 2 à 3 minutes lors du premier téléchargement des modèles.
 - Avec le volume **huggingface_cache**, 10 à 15 secondes pour les autres téléchargements.
 
-### Étape 4: Asynchronous, High-Performance Processing using a Task Manager
+### Étape 4: Traitement Asynchrone Haute Performance avec un Gestionnaire de Tâches
 
 #### Description :
 - Utilisation de Celery pour la gestion des tâches et la mise en place d'un système asynchrone pour le traitement des images.
