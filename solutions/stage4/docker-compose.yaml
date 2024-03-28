@@ -4,7 +4,7 @@ services:
     build:
       context: ./sources-frontend
     ports:
-      - "80:80"
+      - "8000:7860"
     environment:
       - CELERY_BROKER_URL=amqp://guest:guest@rabbitmq:5672
       - CELERY_RESULT_BACKEND=rpc://
